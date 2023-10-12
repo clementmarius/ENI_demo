@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--c'est le header-->
+
+<head>
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="main-tp.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Test</title>
+
+</head>
+<!-- Le contenu de la page -->
+
+<body>
+
+    
+<header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ul>
+          <li><a href="acceuil.html">Home</a></li>
+          <li><a href="#">Subscription</a></li>
+        </ul>
+      </nav>
+
+
+
+</header>
+
+
+<div class="con">
+    <h1 class="title-1-2">Inscription</h1>
+
+    <!-- fieldset et legend pour afficher un intitulé encadré -->
+
+    <fieldset class="encadre_info">
+        <legend class="info_inscription">Identifiants</legend>
+
+        <div class="index-group">
+            <input class="saisie-info" placeholder="E-mail" />
+        </div>
+
+        <div class="index-group">
+            <input class="saisie-info" placeholder="Mot de passe" />
+        </div>
+
+        <div class="index-group">
+            <input class="saisie-info" placeholder="Confirmation de mot de passe" />
+        </div>
+
+    </fieldset>
+
+
+    <!-- fieldset et legend pour afficher un intitulé encadré -->
+
+    <fieldset class="encadre_info">
+        <legend class="info_inscription">Profil</legend>
+
+        <div class="index-group">
+            <input class="saisie-info" placeholder="Pseudo" />
+        </div>
+
+        <div class="index-group">
+            <input class="saisie-info" placeholder="Adresse" />
+        </div>
+
+        <div class="index-group">
+            <input class="saisie-info" placeholder="Code Postale" />
+        </div>
+
+    </fieldset>
+
+
+
+    <fieldset class="encadre_info">
+        <legend class="info_inscription">Test Spécial (Eliminatoire)</legend>
+
+        <p class="options_de_beurre">Parmis les options proposées, selectionnez la bonne réponse</p>
+
+
+        <!-- Utilisation de flex pour afficher les options sous forme de bloc alignés sur la même ligne -->
+
+       <div class="flex_beurre">
+
+        <div class="radio_beurre">
+            <input type="radio" name="beurre"/><label class="reponse_de_beurre">Beurre Salé</label>
+        </div>
+
+
+        <div class="radio_beurre">
+            <input type="radio" name="beurre"/><label class="reponse_de_beurre">Beurre doux</label>
+        </div>
+
+            <div class="radio_beurre">
+                <input type="radio" name="beurre"/><label class="reponse_de_beurre">Les deux</label>
+            </div>
+        </div>
+
+    </fieldset>
+
+
+    <button class="class-btn-log"><strong>Valider</strong></button>
+
+</div>
+
+</body>
+
+</html>
