@@ -35,9 +35,6 @@
     <!-- Header -->
 
 
-
-    <!-- Article -->
-
     <!-- 1 st aside  -->
 
     <h1 class="home_title">Piste audios</h1>
@@ -77,9 +74,10 @@
                     </div>
 
                     <div class="icons_play">
-                        <button class="play_button">
-                            <i class="fa fa-play" aria-hidden="true"></i>
-                        </button>
+                        <button id="play-btn">Lire musique</button>
+                        <audio id="audio-player" src="bird_sounds.mp3"></audio>
+                        <i class="fa fa-play" aria-hidden="true"></i>
+
                         <div class="track_player"></div>
                         <p class="timer_sound">0:01/0:02</p>
                     </div>
@@ -194,7 +192,7 @@
     </div>
 
 
-
+    <script src="audio.js"></script>
 </body>
 
 </html>
