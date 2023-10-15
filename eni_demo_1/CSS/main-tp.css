@@ -1,0 +1,326 @@
+/* Maquette formulaire */
+
+
+
+body {
+    background-image: url("/eni_demo_1/pictures/mobile_background_tp.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenu_page {
+    padding: 1rem;
+}
+
+
+.title-1-2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.7em;
+    color: #ffffff;
+    padding-top: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.message-bienvenue {
+
+    text-align: center;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.saisie-info {
+
+    width: 100%;
+    border-radius: 7px 7px 7px 7px;
+    border: 1px solid #ffffff;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    background-color: #ffffff00;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+    color: #ffffff
+}
+
+
+.index-group {
+    padding: 0.5rem;
+
+}
+
+.hyper_lien_mdp {
+    text-align: right;
+    padding: 0.5rem;
+
+}
+
+.mdp_oublie {
+    color: #ffffff;
+    padding: 0.5rem;
+    text-decoration: underline;
+}
+
+.class-btn-log {
+
+    width: 100%;
+    padding: 1.2rem;
+    border: 0;
+    border-radius: 25px 25px 25px 25px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.dernier-paragraphe {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+
+/* Page 2 html */
+
+.info_inscription {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.encadre_info {
+    padding: 0.8rem;
+}
+
+fieldset {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-color: #ffffff;
+}
+
+.options_de_beurre {
+    text-align: left;
+    padding-left: 0.8rem;
+}
+
+.reponse_de_beurre {
+    color: #ffffff;
+}
+
+
+.flex_beurre {
+
+    display: flex;
+
+}
+
+.radio_beurre {
+
+    flex: 1;
+}
+
+.home_title {
+
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.7em;
+    color: #ffffff;
+    padding-top: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home_btn_log {
+    padding: 0.5rem;
+}
+
+.breadcrumb {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ffffff;
+    background-color: #334852;
+}
+
+.breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+
+}
+
+.breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: ">";
+    color: #aba7a7;
+}
+
+.inscription_pop_up {
+    text-decoration: underline;
+}
+
+/* Soundtracks CSS */
+
+.container_dog_tracks {
+    padding: 0.5rem;
+}
+
+.parent_dog_tracks {
+    padding: 1rem;
+    border: 0px solid white;
+    border-radius: 55px 55px 55px 55px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF44
+        /* display: flex; */
+}
+
+.child_dog_tracks {
+    display: flex;
+
+}
+
+.img_dogs {
+    width: 90px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.tracks_title {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    row-gap: 10px;
+    padding-left: 1.5rem;
+
+}
+
+.under_title {
+    color: #ffffff;
+    margin: 0;
+}
+
+.icons_volume {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons_play {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.volume_down_to_up {
+    flex: 1;
+    margin-right: 0.5rem;
+}
+
+.track_player {
+    height: 6px;
+    width: 100%;
+    background-color: #ffffff44;
+    margin-right: 0.5rem;
+}
+
+.fa {
+    margin-right: 0.5rem;
+}
+
+.timer_sound {
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.play_button {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #FFFFFF44;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    margin-right: 0.5rem;
+}
+
+.play_button i {
+    margin: 0;
+}
+
+#play-btn {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #FFFFFF44;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+
+#play-btn-second {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #FFFFFF44;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#play-btn-third {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #FFFFFF44;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    margin-right: 0.5rem; 
+    cursor: pointer;
+}
+
+#play-btn-fourth {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #FFFFFF44;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    margin-right: 0.5rem;  
+    cursor: pointer; 
+}
