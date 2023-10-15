@@ -324,3 +324,15 @@ h4 {
     margin-right: 0.5rem;  
     cursor: pointer; 
 }
+
+.fa-stop:before {
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #FFFFFF44;
+    border: 0;
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+    margin-right: 0.5rem;  
+    cursor: pointer; 
+}

@@ -52,9 +52,9 @@ document.getElementById('play-btn-fourth').addEventListener('click', function() 
     var audio = document.getElementById('audio-player-fourth');
     if (audio.paused) {
       audio.play();
-      this.innerHTML = '<i class="fa fa-play"'; // Mettez le texte "Pause" sur le bouton
+      this.innerHTML = '<i class="fa fa-play"'; // Mettez l'icone' "Pause" sur le bouton
     } else {
       audio.pause();
-      this.innerHTML = 'Lire la musique'; // Mettez le texte "Lire la musique" sur le bouton
+      this.innerHTML = '<i class="fa-solid fa-stop"></i>'; // Mettez l'icone' "play
     }
   }); 
