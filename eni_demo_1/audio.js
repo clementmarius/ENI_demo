@@ -52,9 +52,21 @@ document.getElementById('play-btn-fourth').addEventListener('click', function() 
     var audio = document.getElementById('audio-player-fourth');
     if (audio.paused) {
       audio.play();
-      this.innerHTML = '<i class="fa fa-play"'; // Mettez l'icone' "Pause" sur le bouton
+      this.innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>'; // Mettez l'icone' "Pause" sur le bouton
     } else {
       audio.pause();
-      this.innerHTML = '<i class="fa-solid fa-stop"></i>'; // Mettez l'icone' "play
+      this.innerHTML = '<i class="fa fa-stop" aria-hidden="true"></i>'; // Mettez l'icone' "play
     }
   }); 
+
+  //Hide button when nothing is played
+
+  document.getElementById('btn-stop-hidden').addEventListener('click', function() {
+    if (audio.paused) {
+        // Hide the button
+        this.style.display = 'none';
+    } else {
+        // Show the button
+        this.style.display = 'block'; // or 'inline' or any other valid CSS value
+    }
+});
